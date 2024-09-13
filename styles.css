@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Akira';
+    src: url('fonts/Akira.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+}
+
+#img-container {
+    width: 35vw; 
+    height: 100vh; 
+    background-image: url('img/pawel-nolbert-unsplash.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+#img-container footer {
+    position: absolute;
+    bottom: 10px; 
+    left: 20px; 
+    color: white; 
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px; 
+    border-radius: 5px;
+}
+
+#img-container footer a {
+    color: white; 
+}
+
+#img-text {
+    font-family: 'Akira', Arial, Helvetica, sans-serif;
+    position: absolute;
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
